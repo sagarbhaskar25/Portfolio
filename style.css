@@ -1,0 +1,44 @@
+body{
+    background-color: aqua;
+    margin: 20px;
+    
+}
+
+.section-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  gap: 10px;
+}
+  
+.section{
+    border: 2px solid;
+    margin: 20px;
+    width: 700px;
+    height: 300px;
+}
+.section h2{
+    text-align: center;
+    text-shadow: black 0.1px 0.2px 2px;
+}
+.profile-image{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    border-radius: 50px;
+}
+img{
+    clip-path: ellipse(40% 50%);
+    
+}
+h1{
+    text-align: center;
+}
+.bio{
+    text-align: center;
+}
+.contact-info{
+    text-align: center;
+    
+}
